@@ -1,8 +1,8 @@
-require_relative('..models/customer')
-require_relative('..models/film')
-require_relative('..models/ticket')
+# require_relative('..models/customer')
+require_relative( 'models/film' )
+# require_relative('..models/ticket')
 
-require('psy-byebug')
+require( 'pry-byebug' )
 
 Film.delete_all()
 
